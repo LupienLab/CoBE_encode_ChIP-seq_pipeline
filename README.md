@@ -28,12 +28,15 @@ wget https://github.com/broadinstitute/cromwell/releases/download/78/cromwell-78
 ```
 
 **STEP 5: Write input json and set genome paths
+```
 Write input json file as shown here(https://github.com/ENCODE-DCC/chip-seq-pipeline2/blob/master/example_input_json/template.json), you can also browse other json files to see what params are best fit for you. Have the genome tsv file properly set up.
-
+```
 
 **STEP 6: Run pipeline
+```
 Edit run_encode-chip-seq-pipeline.sh file downloading from this repo with full paths, replace all "PATH/TO/" to correct paths. And run the following with passing json file as parameter:
-
+```
+Final run
 ```
 sbatch run_encode-chip-seq-pipeline.sh template.json
 ```
