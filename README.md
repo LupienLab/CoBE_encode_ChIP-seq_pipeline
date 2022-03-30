@@ -1,5 +1,7 @@
 # CoBE_encode_ChIP-seq_pipeline
 
+References : https://github.com/ENCODE-DCC/chip-seq-pipeline2
+
 **STEP 1: Login to cluster:**
 ```
 ssh username@cluster.org
