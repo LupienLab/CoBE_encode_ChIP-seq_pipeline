@@ -40,3 +40,11 @@ Edit run_encode-chip-seq-pipeline.sh file downloading from this repo with full p
 ```
 sbatch run_encode-chip-seq-pipeline.sh template.json
 ```
+
+**STEP7: Arrange output**
+How to organize outputs (https://github.com/ENCODE-DCC/chip-seq-pipeline2#how-to-organize-outputs)
+```
+$ pip install croo
+$ croo [METADATA_JSON_FILE]
+```
+
